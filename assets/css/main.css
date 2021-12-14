@@ -23,6 +23,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	/*font: Helvetica; */
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -117,7 +118,8 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #585858;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		 font-family: "Source Sans Pro", Helvetica, sans-serif; 
+		/*font-family:  Helvetica, sans-serif;*/
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.75;
@@ -1816,6 +1818,7 @@ input, select, textarea {
 			line-height: 1;
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
+			/*font-family: inherit; */
 			font-weight: 400;
 		}
 
@@ -1832,7 +1835,9 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: 'Font Awesome 5 Brands'; 
+			/*font-family: inherit; */
+
 		}
 
 		.icon.style2 {
@@ -2837,10 +2842,10 @@ input, select, textarea {
 			border-bottom: 0;
 			color: inherit;
 			font-weight: 900;
-			letter-spacing: 0.35em;
+			letter-spacing: 0.05em;
 			margin: 0 0 2.5em 0;
 			text-decoration: none;
-			text-transform: uppercase;
+			text-transform: capitalize;
 			display: inline-block;
 		}
 
