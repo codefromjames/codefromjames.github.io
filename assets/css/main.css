@@ -1697,41 +1697,41 @@ input, select, textarea {
 
 				.row.gtr-25 {
 					margin-top: 0;
-					margin-left: -0.25em;
+					margin-left: 0em;
 				}
 
 					.row.gtr-25 > * {
-						padding: 0 0 0 0.25em;
+						padding: 0 0 0 0em;
 					}
 
 					.row.gtr-25.gtr-uniform {
-						margin-top: -0.25em;
+						margin-top: 0em;
 					}
 
 						.row.gtr-25.gtr-uniform > * {
-							padding-top: 0.25em;
+							padding-top: 0em;
 						}
 
 				.row.gtr-50 {
 					margin-top: 0;
-					margin-left: -0.5em;
+					margin-left: 0em;
 				}
 
 					.row.gtr-50 > * {
-						padding: 0 0 0 0.5em;
+						padding: 0 0 0 0em;
 					}
 
 					.row.gtr-50.gtr-uniform {
-						margin-top: -0.5em;
+						margin-top: 0em;
 					}
 
 						.row.gtr-50.gtr-uniform > * {
-							padding-top: 0.5em;
+							padding-top: 0em;
 						}
 
 				.row {
 					margin-top: 0;
-					margin-left: -1em;
+					margin-left: 0em;
 				}
 
 					.row > * {
@@ -1739,45 +1739,45 @@ input, select, textarea {
 					}
 
 					.row.gtr-uniform {
-						margin-top: -1em;
+						margin-top: 0em;
 					}
 
 						.row.gtr-uniform > * {
-							padding-top: 1em;
+							padding-top: 0em;
 						}
 
 				.row.gtr-150 {
 					margin-top: 0;
-					margin-left: -1.5em;
+					margin-left: 0em;
 				}
 
 					.row.gtr-150 > * {
-						padding: 0 0 0 1.5em;
+						padding: 0 0 0 0em;
 					}
 
 					.row.gtr-150.gtr-uniform {
-						margin-top: -1.5em;
+						margin-top: 0em;
 					}
 
 						.row.gtr-150.gtr-uniform > * {
-							padding-top: 1.5em;
+							padding-top: 0em;
 						}
 
 				.row.gtr-200 {
 					margin-top: 0;
-					margin-left: -2em;
+					margin-left: 0em;
 				}
 
 					.row.gtr-200 > * {
-						padding: 0 0 0 2em;
+						padding: 0 0 0 0em;
 					}
 
 					.row.gtr-200.gtr-uniform {
-						margin-top: -2em;
+						margin-top: 0em;
 					}
 
 						.row.gtr-200.gtr-uniform > * {
-							padding-top: 2em;
+							padding-top: 0em;
 						}
 
 		}
