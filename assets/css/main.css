@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
-	line-height: 1;
+	line-height: 0.5;
 }
 
 ol, ul {
@@ -165,15 +165,15 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 0em 0;
 	}
 
 	h1 {
 		font-size: 2.75em;
 		font-weight: 700;
-		line-height: 1.3;
-		margin: 0 0 .2em 0;
-		letter-spacing: -0.035em;
+		line-height: 2;
+		margin: 0 0  0;
+		letter-spacing: 0.0em;
 	}
 
 		h1 a {
@@ -287,7 +287,7 @@ input, select, textarea {
 
 		pre code {
 			display: block;
-			line-height: 1.75;
+			line-height: 0.5;
 			padding: 1em 1.5em;
 			overflow-x: auto;
 		}
@@ -1777,7 +1777,7 @@ input, select, textarea {
 					}
 
 						.row.gtr-200.gtr-uniform > * {
-							padding-top: 0em;
+							padding-top: em;
 						}
 
 		}
@@ -2263,7 +2263,7 @@ input, select, textarea {
 				font-size: 0.8em;
 				height: 2.25em;
 				left: 0;
-				line-height: 2.25em;
+				line-height: 1em;
 				position: absolute;
 				text-align: center;
 				top: 0;
@@ -2701,7 +2701,7 @@ input, select, textarea {
 					transition: max-height 0.5s ease, opacity 0.5s ease;
 					width: 100%;
 					max-height: 0;
-					line-height: 1.5;
+					line-height: 1;
 					margin-top: 0.35em;
 					opacity: 0;
 				}
@@ -2834,7 +2834,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 0em 0 0em 0 ;
+		padding: 0 0 0 20% ;
 	}
 
 		#header .logo {
@@ -2953,7 +2953,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding: 0em 0 0.1em 0 ;
+				padding: 0 0 0 0 ;
 			}
 
 				#header nav {
@@ -3030,7 +3030,7 @@ input, select, textarea {
 					#menu > .inner > ul > li a {
 						display: block;
 						padding: 1em 0;
-						line-height: 1.5;
+						line-height: 1;
 						border: 0;
 						color: inherit;
 					}
@@ -3156,7 +3156,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		padding: 0em 4em 4em 4em ;
+		padding: 0 0 0 5% ;
 	}
 
 		@media screen and (max-width: 736px) {
@@ -3170,7 +3170,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 0em 0em 0em 4em ;
+		padding: 0em 0em 0em 5% ;
 		background-color: #f6f6f6;
 	}
 
